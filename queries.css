@@ -1,0 +1,97 @@
+@media (max-width: 1140px) {
+    .titleBar {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 775px) {
+    .serverInfo {
+        display: none;
+    }
+    .serverInfo775 {
+        display: flex;
+    }
+    iframe {
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media (max-width: 575px) {
+    .titleBar {
+        width: 95%;
+    }
+    .main {
+        width: 95%;
+    }
+    .titleBar {
+        font-size: 1.5rem;
+        padding-bottom: 0.25rem;
+    }
+    .howToConnect ol {
+        margin-left: 1rem;
+    }
+    .howToConnect p {
+        margin-left: 0rem;
+    }
+    .serverRules p {
+        margin-left: 0rem;
+    }
+    .serverRules ul {
+        margin-left: 1rem;
+    }
+    .subsec {
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 535px) {
+    body {
+        font-size: 12px;
+    }
+    .command {
+        white-space: nowrap;
+        width: 12rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .titleBar {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 435px) {
+    iframe {
+        width: 300px;
+        height: 168px;
+    }
+    .titleBar {
+        padding-left: 0.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .serverInfoTags {
+        font-size: 1rem;
+    }
+    .titleBar img {
+        height: 5rem;
+    }
+    .titleBar {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 335px) {
+    iframe {
+        width: 250px;
+    }
+    .command {
+        white-space: normal;
+        width: 3rem;
+    }
+}
